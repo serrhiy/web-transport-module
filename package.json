@@ -1,4 +1,12 @@
 {
   "name": "web-transport-module",
-  "main": "WebTransport.js"
+  "main": "dist/WebTransport.js",
+  "devDependencies": {
+    "@types/node": "^24.10.2",
+    "typescript": "^5.9.3"
+  },
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build"
+  }
 }

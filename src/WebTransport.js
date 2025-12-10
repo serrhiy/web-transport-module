@@ -2,7 +2,7 @@
 
 const http = require('node:http');
 const { once } = require('node:events');
-const AsyncQueue = require('./AsyncQueue.ts');
+const AsyncQueue = require('./AsyncQueue.js');
 
 class WebTransport {
   #server = null;
